@@ -8,8 +8,8 @@ class Counter extends Component {
     render() { 
         return (
         <div>
-            <p>{ this.formatCount() }</p>
-            <button>Increment</button>
+            <p style={{ fontSize: 30 }}>{ this.formatCount() }</p>
+            <button className="btn btn-sm">Increment</button>
         </div>
 
         )
