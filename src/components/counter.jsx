@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { directive } from '@babel/types';
 
 class Counter extends Component {
     state = {
@@ -7,9 +6,9 @@ class Counter extends Component {
     }
     render() { 
         return (
-        <div>
-            <p style={{ fontSize: 30 }}>{ this.formatCount() }</p>
-            <button className="btn btn-sm">Increment</button>
+        <div className="container">
+            <span style={{ fontSize: 25 }}>{ this.formatCount() }</span>
+            <button className="btn btn-sm m-2">Increment</button>
         </div>
 
         )
